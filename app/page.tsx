@@ -114,14 +114,16 @@ export default function Home() {
                     What am I doing there?
                   </div>
                   <div className="text-2xl mt-2 text-[#F8E5D6] font-normal">
-                    Some short description of the day. Lorem ipsum dolor, sit
-                    amet consectetur adipisicing elit. Iure corporis itaque
-                    debitis, molestias temporibus nihil dolores magni rem a
-                    accusantium dolorem optio ipsam! Ad minus voluptates
-                    reiciendis ipsa quaerat exercitationem.
+                    At Parthenon, you'll spend the weekend collaborating with
+                    other top high school builders from around the world to
+                    brainstorm, code, and ship a projects. You'll take part in
+                    hands-on workshops, team activities, and a final showcase
+                    where they present what they’ve built. Beyond coding, it’s a
+                    chance to make lifelong friends, grow confidence, and be
+                    inspired by leaders in technology.
                   </div>
                   <div className="flex justify-end gap-4 mt-4">
-                    <Button href="#athena-award">How to attend</Button>
+                    <Button href="/guide">Check out the guide!</Button>
                   </div>
                 </div>
               </div>
@@ -219,13 +221,17 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          <div className="text-5xl uppercase drop-shadow-md font-serif text-[#DBC491] mt-5">
-            Frequently Asked Questions
+          <div className="flex justify-center mt-5">
+            <div className="text-5xl uppercase drop-shadow-md font-serif text-[#DBC491] text-center">
+              Want more information?
+            </div>
           </div>
+          <div className="flex justify-center gap-4 mt-4">
+            <Button href="/guide">Check out the guide!</Button>
+          </div>
+
           <div className="flex uppercase font-serif items-center gap-2 text-sm mt-4">
-            <span>See also:</span>
-            <Button>Parent&apos;s Guide</Button>
-            <Button>Travel Guide</Button>
+            <h2> </h2>
           </div>
           <div className="mt-6">
             <div className="text-lg text-[#DBC491] font-serif"></div>
