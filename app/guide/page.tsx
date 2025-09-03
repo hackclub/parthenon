@@ -10,6 +10,7 @@ export default function Home() {
         lists, are subject to change. We will provide more info closer to the
         event.
       </p>
+      <p>Don&apos;t forget to check updates before attending.</p>
     </div>
   );
 }

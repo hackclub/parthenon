@@ -52,7 +52,7 @@ export default function Home() {
             />
           </div>
           <div className="text-center p-8 md:text-3xl -translate-y-20 mt-4 text-outline text-[#DBC491]">
-            <div>the world&apos;s largest all-girls high school hackathon</div>
+            <div>the world’s largest all-girls high school hackathon</div>
             <div>
               november 14-16, 2025 &middot; new york city &middot; 200 teen
               hackers
@@ -92,8 +92,7 @@ export default function Home() {
                   <div className="text-2xl mt-2 text-[#F8E5D6] font-normal">
                     Parthenon is a 36-hour hackathon in New York City bringing
                     together 200 high school students who identify as girls or
-                    gender minorities. It&apos;s the capstone of Hack
-                    Club&apos;s{" "}
+                    gender minorities. It’s the capstone of Hack Club’s{" "}
                     <a
                       href="#athena-award"
                       className="underline underline-offset-2 decoration-wavy hover:text-white transition"
@@ -141,7 +140,7 @@ export default function Home() {
                   Hack Club is a 501(c)(3) nonprofit and global network of 30k+
                   teen makers. <br />
                   <br />
-                  Athena&apos;s mission is to give teenage girls and gender
+                  Athena’s mission is to give teenage girls and gender
                   minorities a space to create ambitious projects, connect with
                   peers worldwide, and see themselves thriving in technology.
                   Parthenon is where the work of the athena award comes together
