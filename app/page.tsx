@@ -113,13 +113,13 @@ export default function Home() {
                     What am I doing there?
                   </div>
                   <div className="text-2xl mt-2 text-[#F8E5D6] font-normal">
-                    At Parthenon, you'll spend the weekend collaborating with
-                    other top high school builders from around the world to
-                    brainstorm, code, and ship a projects. You'll take part in
-                    hands-on workshops, team activities, and a final showcase
-                    where they present what they’ve built. Beyond coding, it’s a
-                    chance to make lifelong friends, grow confidence, and be
-                    inspired by leaders in technology.
+                    At Parthenon, you&apos;ll spend the weekend collaborating
+                    with other top high school builders from around the world to
+                    brainstorm, code, and ship a projects. You&apos;ll take part
+                    in hands-on workshops, team activities, and a final showcase
+                    where they present what they&apos;ve built. Beyond coding,
+                    it&apos;s a chance to make lifelong friends, grow
+                    confidence, and be inspired by leaders in technology.
                   </div>
                   <div className="flex justify-end gap-4 mt-4">
                     <Button href="/guide">Check out the guide!</Button>
@@ -140,7 +140,7 @@ export default function Home() {
                   Hack Club is a 501(c)(3) nonprofit and global network of 30k+
                   teen makers. <br />
                   <br />
-                  Athena’s mission is to give teenage girls and gender
+                  Athena&apos;s mission is to give teenage girls and gender
                   minorities a space to create ambitious projects, connect with
                   peers worldwide, and see themselves thriving in technology.
                   Parthenon is where the work of the athena award comes together
