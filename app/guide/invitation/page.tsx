@@ -33,9 +33,10 @@ export default function AthenaAward() {
         <div className="space-y-2 text-sm sm:text-base md:text-lg">
           <p>
             The Athena Award is a six-month long program at Hack Club designed
-            to encourage girls and gender minorities to code and "ship"
-            technical projects. The program itself, as part of the Athena
-            Initiative, is aimed at and for high school students worldwide.
+            to encourage girls and gender minorities to code and
+            &quot;ship;&quot; technical projects. The program itself, as part of
+            the Athena Initiative, is aimed at and for high school students
+            worldwide.
           </p>
           <p>
             We aim for students who have completed the Athena Award to be
@@ -48,7 +49,7 @@ export default function AthenaAward() {
           <p>The requirements:</p>
           <ul className="list-disc list-inside">
             <li>
-              Complete three technical projects (Hack Club's YSWS programs,
+              Complete three technical projects (Hack Club&apos;s YSWS programs,
               personal projects)
             </li>
             <li>
@@ -64,13 +65,13 @@ export default function AthenaAward() {
           What is Parthenon?
         </h2>
         <p className="text-sm sm:text-base md:text-lg">
-          Parthenon is the capstone hackathon of the Athena Award, Hack Club's
-          most ambitious initiative to get girls technical. This hackathon
-          weekend is the culmination of the Athena Award—empowering thousands of
-          girls to build ambitious projects and code all year long. After coding
-          for 30 hours and creating 3 technical projects, the top 200 girls
-          internationally earn a spot at Parthenon in New York City to celebrate
-          their hard work over the past few months.
+          Parthenon is the capstone hackathon of the Athena Award, Hack
+          Club&apos;s most ambitious initiative to get girls technical. This
+          hackathon weekend is the culmination of the Athena Award—empowering
+          thousands of girls to build ambitious projects and code all year long.
+          After coding for 30 hours and creating 3 technical projects, the top
+          200 girls internationally earn a spot at Parthenon in New York City to
+          celebrate their hard work over the past few months.
         </p>
       </section>
     </div>
