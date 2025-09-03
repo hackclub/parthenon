@@ -106,10 +106,14 @@ export default function Home() {
             </div>
           </div>
           <div className="text-5xl uppercase drop-shadow-md font-serif text-[#DBC491] mt-5">Frequently Asked Questions</div>
+          <div className="flex uppercase items-center gap-2">
+            <span>See the guide for more info:</span>
+            <Button href="/guide/invitation">View Parthenon Invitation Guide</Button>
+          </div>
           <div className="flex uppercase font-serif items-center gap-2 text-sm mt-4">
             <span>See also:</span>
-            <Button>Parent&apos;s Guide</Button>
-            <Button>Travel Guide</Button>
+            <Button href="/guide/parents">Parent&apos;s Guide</Button>
+            <Button href="/guide">Travel Guide</Button>
           </div>
           <div className="mt-6">
             <div className="text-lg text-[#DBC491] font-serif"></div>
