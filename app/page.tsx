@@ -64,6 +64,22 @@ export default function Home() {
           <div className="absolute bottom-20 uppercase text-outline text-[#DBC491]">
             scroll to continue
           </div>
+          <Image
+            className="
+            absolute 
+            left-1/2 
+            transform 
+            -translate-x-1/2 
+            translate-y-30  /* mobile positioning */
+            scale-50          /* mobile size */
+            rotate-180
+            md:translate-y-55 /* desktop override */
+            md:scale-25"
+            src="/elements/gold-vine.png"
+            alt="gold vine decoration"
+            height={1000}
+            width={1000}
+          />
         </div>
 
         {/* Scrolling content section */}
