@@ -82,9 +82,9 @@ export default function Home() {
           {/* Flowing content */}
           <div className="absolute top-0 md:pt-10 px-4 md:px-0">
             {/* Cards container: apply Athens image as background to the grouped cards */}
-            <div className="cards-container relative w-screen -mx-4 md:mx-0 bg-center bg-cover bg-no-repeat bg-blend-multiply py-8 md:py-16 min-h-screen md:min-h-[60vh]">
+            <div className="cards-container  relative w-screen -mx-4 md:mx-0 bg-center bg-cover bg-no-repeat bg-blend-multiply py-8 md:py-16 min-h-screen md:min-h-[60vh]">
               {/* Card 1 */}
-              <div className="relative text-[#DBC491] md:mx-20 bg-[#3B5435]/90 p-3 backdrop-blur-sm">
+              <div className="relative mx-4 md:mx-20 text-[#DBC491] bg-[#3B5435]/90 p-3 backdrop-blur-sm">
                 <div className="absolute inset-0 -z-10 bg-[url('/noise.svg')] mix-blend-multiply"></div>
                 <div className="border border-[#DBC491]/50 flex flex-col md:flex-row gap-6">
                   <div className="flex items-center justify-center p-6">
@@ -103,7 +103,8 @@ export default function Home() {
                     <div className="text-lg md:text-2xl mt-2 text-[#F8E5D6] font-normal">
                       Parthenon is a 36-hour hackathon in New York City bringing
                       together 200 high school students who identify as girls or
-                      gender minorities. It&apos;s the capstone of Hack Club&apos;s{" "}
+                      gender minorities. It&apos;s the capstone of Hack
+                      Club&apos;s{" "}
                       <a
                         href="#athena-award"
                         className="underline underline-offset-2 decoration-wavy hover:text-white transition"
@@ -117,7 +118,7 @@ export default function Home() {
               </div>
 
               {/* --- What am I doing there? Card --- */}
-              <div className="my-16 md:my-32 text-[#DBC491] md:mx-20 bg-[#3B5435]/90 p-3 relative backdrop-blur-sm">
+              <div className="my-24 md:my-24 text-[#DBC491] mx-4 md:mx-20 bg-[#3B5435]/90 p-3 relative backdrop-blur-sm">
                 <div className="absolute inset-0 -z-10 bg-[url('/noise.svg')] mix-blend-multiply"></div>
                 <div className="border border-[#DBC491]/50 flex flex-col md:flex-row gap-6">
                   <div className="p-6 md:p-14 w-full">
@@ -142,7 +143,7 @@ export default function Home() {
               </div>
 
               {/* --- Brought to you by Card --- */}
-              <div className="my-32 top-0 text-[#DBC491] md:mx-20 bg-[#3B5435]/90 p-3 relative backdrop-blur-sm">
+              <div className="my-16 top-0 text-[#DBC491] mx-4 md:mx-20 bg-[#3B5435]/90 p-3 relative backdrop-blur-sm">
                 <div className="absolute inset-0 -z-1 bg-[url('/noise.svg')] mix-blend-multiply"></div>
                 <div className="border border-[#DBC491]/50 flex flex-col md:flex-row gap-6">
                   <div className="p-8 md:p-14 w-full">
