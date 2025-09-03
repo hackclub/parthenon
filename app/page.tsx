@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-[#F4E3C1] min-h-screen w-screen relative overflow-x-hidden">
+    <div className="">
       <div className="absolute z-1 top-0 left-0">
         <div className="flex w-screen justify-between">
           <div className="relative">
@@ -51,10 +51,11 @@ export default function Home() {
               className="w-full h-auto md:mx-10 -translate-y-5 translate-x-5"
             />
           </div>
-          <div className="text-center p-8 md:text-3xl -translate-y-20 text-outline text-[#DBC491]">
-            <div>the nation&apos;s largest all-girls hackathon</div>
+          <div className="text-center p-8 md:text-3xl -translate-y-20 mt-4 text-outline text-[#DBC491]">
+            <div>the world&apos;s largest all-girls high school hackathon</div>
             <div>
-              november 14-16 &middot; new york city &middot; 200 teen hackers
+              november 14-16, 2025 &middot; new york city &middot; 200 teen
+              hackers
             </div>
           </div>
           <div className="absolute bottom-20 uppercase text-outline text-[#DBC491]">
