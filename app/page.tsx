@@ -104,7 +104,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
             <div className="my-32 top-0 text-[#DBC491] md:mx-20 bg-[#3B5435]/90 p-3 relative backdrop-blur-sm">
               <div className="absolute inset-0 -z-1 bg-[url('/noise.svg')] mix-blend-multiply"></div>
               <div className="border border-[#DBC491]/50 flex flex-col md:flex-row gap-6">
@@ -126,25 +125,24 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="flex flex-col my-32 justify-end md:flex-row gap-6 top-0 md:px-20 p-6 text-[#DBC491] md:py-10 w-full">
-              <div className="p-8 md:p-14 bg-[#3B5435]/90 relative backdrop-blur-md w-full">
-                <div className="absolute inset-0 -z-1 bg-[url('/noise.svg')] mix-blend-multiply"></div>
-                <div className="text-xl uppercase font-serif">
-                  Brought to you by
-                </div>
-                <div className="text-5xl uppercase drop-shadow-md font-serif">
-                  Hack Club Athena
-                </div>
-                <div className="text-2xl mt-2 text-[#F8E5D6] font-normal">
-                  Hack Club is a 501(c)(3) nonprofit and global network of 30k+
-                  teen makers. <br />
-                  <br />
-                  Athena&apos;s mission is to give teenage girls and gender
-                  minorities a space to create ambitious projects, connect with
-                  peers worldwide, and see themselves thriving in technology.
-                  Parthenon is where the work of the athena award comes together
-                  in one unforgettable weekend.
+            </div>{" "}
+            <div className="my-32 top-0 text-[#DBC491] md:mx-20 bg-[#3B5435]/90 p-3 relative backdrop-blur-sm">
+              <div className="absolute inset-0 -z-1 bg-[url('/noise.svg')] mix-blend-multiply"></div>
+              <div className="border border-[#DBC491]/50 flex flex-col md:flex-row gap-6">
+                <div className="p-8 md:p-14 w-full">
+                  <div className="text-5xl uppercase drop-shadow-md font-serif text-[#DBC491]">
+                    Brought to you by Hack Club Athena
+                  </div>
+                  <div className="text-2xl mt-2 text-[#F8E5D6] font-normal">
+                    Hack Club is a 501(c)(3) nonprofit and global network of
+                    30k+ teen makers. <br />
+                    <br />
+                    Athena&apos;s mission is to give teenage girls and gender
+                    minorities a space to create ambitious projects, connect
+                    with peers worldwide, and see themselves thriving in
+                    technology. Parthenon is where the work of the athena award
+                    comes together in one unforgettable weekend.
+                  </div>
                 </div>
               </div>
             </div>
