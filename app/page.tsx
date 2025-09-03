@@ -55,7 +55,7 @@ export default function Home() {
             />
           </div>
           <div className="text-center p-4 md:p-8 text-lg sm:text-xl md:text-3xl -translate-y-12 md:-translate-y-20 mt-4 text-outline text-[#DBC491]">
-            <div>the world’s largest all-girls high school hackathon</div>
+            <div>the world&apos;s largest all-girls high school hackathon</div>
             <div>
               november 14-16, 2025 &middot; new york city &middot; 200 teen
               hackers
@@ -67,9 +67,9 @@ export default function Home() {
         </div>
 
         {/* Scrolling content section */}
-        <div className="relative w-screen bg-center">
+        <div className="relative w-screen bg-center h-[300vh]">
           {/* Sticky background image */}
-          {/* <div className="sticky top-0 -z-10 h-screen w-screen overflow-hidden flex items-center justify-center">
+          <div className="sticky top-0 -z-10 h-screen w-screen overflow-hidden flex items-center justify-center">
             <Image
               src="/athens.png"
               alt=""
@@ -77,12 +77,12 @@ export default function Home() {
               height={1000}
               className="max-w-none min-h-screen opacity-60"
             />
-          </div> */}
+          </div>
 
           {/* Flowing content */}
-          <div className="relative md:pt-10 px-4 md:px-0">
+          <div className="absolute top-0 md:pt-10 px-4 md:px-0">
             {/* Cards container: apply Athens image as background to the grouped cards */}
-            <div className="cards-container relative w-screen -mx-4 md:mx-0 bg-[url('/athens.png')] bg-center bg-cover bg-no-repeat bg-blend-multiply py-8 md:py-16 min-h-screen md:min-h-[60vh]">
+            <div className="cards-container relative w-screen -mx-4 md:mx-0 bg-center bg-cover bg-no-repeat bg-blend-multiply py-8 md:py-16 min-h-screen md:min-h-[60vh]">
               {/* Card 1 */}
               <div className="relative text-[#DBC491] md:mx-20 bg-[#3B5435]/90 p-3 backdrop-blur-sm">
                 <div className="absolute inset-0 -z-10 bg-[url('/noise.svg')] mix-blend-multiply"></div>
@@ -103,7 +103,7 @@ export default function Home() {
                     <div className="text-lg md:text-2xl mt-2 text-[#F8E5D6] font-normal">
                       Parthenon is a 36-hour hackathon in New York City bringing
                       together 200 high school students who identify as girls or
-                      gender minorities. It’s the capstone of Hack Club’s{" "}
+                      gender minorities. It&apos;s the capstone of Hack Club&apos;s{" "}
                       <a
                         href="#athena-award"
                         className="underline underline-offset-2 decoration-wavy hover:text-white transition"
@@ -166,7 +166,7 @@ export default function Home() {
               {/* --- Athena Award Section --- */}
               <section
                 id="athena-award"
-                className="relative py-16 px-4 md:px-24 text-[#DBC491] bg-red-950/80"
+                className="relative py-16 px-4 md:px-24 text-[#DBC491] md:bg-red-950/80 bg-red-950"
               >
                 <div className="absolute inset-0 -z-10 bg-[url('/noise.svg')] mix-blend-multiply backdrop-blur-sm"></div>
                 <div className="flex flex-col md:flex-row gap-6 items-center">
@@ -250,7 +250,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <footer></footer>
+      {/* <footer></footer> */}
     </div>
   );
 }
