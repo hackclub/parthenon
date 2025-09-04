@@ -258,7 +258,7 @@ export default function Home() {
                         </ul>
                       </div>
                     </div>
-                    <div className="flex justify-center mt-24">
+                    <div className="flex justify-center mt-16">
                       <div className="text-3xl md:text-5xl uppercase drop-shadow-md font-serif text-[#DBC491] text-center">
                         Want more information?
                       </div>

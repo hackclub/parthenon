@@ -13,7 +13,7 @@ export default function Guide({ children }: { children: React.ReactNode }) {
       <button
         aria-label="Open menu"
         onClick={() => setOpen(true)}
-        className="md:hidden fixed top-4 left-4 z-50 p-2 rounded bg-[#3B5435]/95 text-[#DBC491]"
+        className="md:hidden fixed top-4 left-4 z-50 p-2 rounded bg-[#3B5435]/80 text-[#DBC491]"
       >
         ☰
       </button>
@@ -29,7 +29,7 @@ export default function Guide({ children }: { children: React.ReactNode }) {
 
       {/* Sidebar */}
       <nav
-        className={`fixed top-0 bottom-0 left-0 z-50 w-64 p-4 bg-[#3B5435]/95 flex flex-col min-h-screen h-full transform transition-transform duration-200 ease-in-out
+        className={`fixed top-0 bottom-0 left-0 z-50 w-64 p-4 bg-[#3B5435]/80 flex flex-col min-h-screen h-full transform transition-transform duration-200 ease-in-out
           ${open ? "translate-x-0" : "-translate-x-full"} md:translate-x-0`}
       >
         <div className="p-6 flex items-center justify-between">
