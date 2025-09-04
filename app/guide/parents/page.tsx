@@ -203,25 +203,80 @@ export default function ParentGuide() {
 
       {/* Key Personnel */}
       <section>
-        <h2 className="text-2xl mb-2 font-bold">Key Personnel</h2>
-        <ul className="space-y-2 text-lg">
-          <li>
-            <span className="font-semibold">Reem Khalifa</span> —
-            reem@hackclub.com
-          </li>
-          <li>
-            <span className="font-semibold">Rebeka Lawerence Gomez</span> —
-            rebeka@hackclub.com
-          </li>
-          <li>
-            <span className="font-semibold">Christina Asquith</span> —
-            christina@hackclub.com
-          </li>
-          <li>
-            <span className="font-semibold">Zach Latta</span> —
-            zach@hackclub.com
-          </li>
-        </ul>
+        <h2 className="text-2xl mb-6 font-bold">Key Personnel</h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          {/* Person 1 */}
+          <div className="flex flex-col items-center text-center">
+            <img
+              src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/28a04cd679dfd0a56bcbb4dcae4c1d8e95cf6894_image.png"
+              alt="Reem Khalifa"
+              className="w-24 h-24 rounded-full object-cover mb-3"
+            />
+            <div className="font-semibold text-lg text-[#3B5435]">
+              Reem Khalifa
+            </div>
+            <a
+              href="mailto:reem@hackclub.com"
+              className="text-sm text-[#7F534B] mt-1"
+            >
+              reem@hackclub.com
+            </a>
+          </div>
+
+          {/* Person 2 */}
+          <div className="flex flex-col items-center text-center">
+            <img
+              src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/8f043ee75fac8e402b84dd758b246bdc37014bae_image.png"
+              className="w-24 h-24 rounded-full object-cover mb-3"
+            />
+            <div className="font-semibold text-lg text-[#3B5435]">
+              Rebeka Lawrence Gomez
+            </div>
+            <a
+              href="mailto:rebeka@hackclub.com"
+              className="text-sm text-[#7F534B] mt-1"
+            >
+              rebeka@hackclub.com
+            </a>
+          </div>
+
+          {/* Person 3 */}
+          <div className="flex flex-col items-center text-center">
+            <img
+              src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/d2a2d306361dfb9ade241e54cd819143ec4da77e_image.png"
+              alt="Christina Asquith"
+              className="w-24 h-24 rounded-full object-cover mb-3"
+            />
+            <div className="font-semibold text-lg text-[#3B5435]">
+              Christina Asquith
+            </div>
+            <a
+              href="mailto:christina@hackclub.com"
+              className="text-sm text-[#7F534B] mt-1"
+            >
+              christina@hackclub.com
+            </a>
+          </div>
+
+          {/* Person 4 */}
+          <div className="flex flex-col items-center text-center">
+            <img
+              src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/8c2cae7602d623868de20f5fc7935b68fe2b5f06_image.png"
+              alt="Zach Latta"
+              className="w-24 h-24 rounded-full object-cover mb-3"
+            />
+            <div className="font-semibold text-lg text-[#3B5435]">
+              Zach Latta
+            </div>
+            <a
+              href="mailto:zach@hackclub.com"
+              className="text-sm text-[#7F534B] mt-1"
+            >
+              zach@hackclub.com
+            </a>
+          </div>
+        </div>
       </section>
 
       {/* Contact */}
