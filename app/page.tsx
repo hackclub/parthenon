@@ -172,7 +172,7 @@ export default function Home() {
                         </div>
                         <div className="text-2xl mt-2 text-[#F8E5D6] font-normal">
                           Hack Club is a 501(c)(3) nonprofit and global network
-                          of 30k+ teen makers. <br />
+                          of thousands of teen makers. <br />
                           <br />
                           Athena&apos;s mission is to give teenage girls and
                           gender minorities a space to create ambitious
