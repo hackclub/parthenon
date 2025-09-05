@@ -20,6 +20,9 @@ export default function AthenaAward() {
             coding)
           </li>
         </ul>
+        <h2 className="font-bold text-2xl mt-4">
+          Invitations will begin to go out in mid-September!
+        </h2>
         <span className="italic block text-center bg-red-600/20 p-3 mt-3 text-xs sm:text-sm">
           *Note that the event is invitation only; invites are only awarded to
           the first 200 participants to receive the Athena Award.

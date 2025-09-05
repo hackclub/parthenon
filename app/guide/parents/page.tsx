@@ -180,6 +180,10 @@ export default function ParentGuide() {
           contact us if needed. During the event, a toll-free staff helpline (+1
           855-625-HACK) will be available 24/7 if you have any questions.
         </p>
+        <h2 className="font-bold text-2xl mt-4">
+          A Parents Call will happen closer to the date of the event for parents
+          of all attendees.
+        </h2>
       </section>
 
       {/* Packing */}
@@ -280,7 +284,7 @@ export default function ParentGuide() {
       </section>
 
       {/* Contact */}
-      <section>
+      <section className="mb-10">
         <h2 className="text-2xl mb-2 font-bold">
           Who can I contact for more information?
         </h2>

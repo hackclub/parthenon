@@ -269,7 +269,7 @@ export default function Home() {
                   </section>
                 </div>
                 <footer className="w-full bg-[#203826] text-sm text-[#F4E3C1] py-6 shadow-xl">
-                  <div className="mx-auto max-w-4xl px-4 text-center">
+                  <div className="w-full px-4 text-center md:mx-auto md:max-w-4xl">
                     Made with <span aria-hidden>💖</span> by&nbsp;
                     <a
                       href="https://athena.hackclub.com/team"
