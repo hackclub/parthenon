@@ -103,7 +103,7 @@ export default function Home() {
               {/* Flowing content */}
               <div className="absolute top-0 md:pt-10 px-4 md:px-0">
                 {/* Cards container */}
-                <div className="cards-container relative w-screen -mx-4 md:mx-0 bg-center bg-cover bg-no-repeat bg-blend-multiply py-8 md:py-16 min-h-screen md:min-h-[60vh]">
+                <div className="cards-container relative -mx-4 md:mx-0 bg-center bg-cover bg-no-repeat bg-blend-multiply py-8 md:py-16 min-h-screen md:min-h-[60vh]">
                   {/* Card 1 */}
                   <div className="relative mx-4 md:mx-20 text-[#DBC491] bg-[#3B5435]/90 p-3 backdrop-blur-sm">
                     <div className="absolute inset-0 -z-10 bg-[url('/noise.svg')] mix-blend-multiply"></div>
@@ -268,19 +268,19 @@ export default function Home() {
                     </div>
                   </section>
                 </div>
-                <footer className="w-full bg-[#203826] text-sm text-[#F4E3C1] py-6 shadow-xl">
-                  <div className="mx-auto max-w-4xl px-4 text-center">
-                    Made with <span aria-hidden>💖</span> by&nbsp;
-                    <a
-                      href="https://athena.hackclub.com/team"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="underline underline-offset-2 decoration-wavy text-[#DBC491] font-semibold hover:text-white transition-colors"
-                    >
-                      Athena Team
-                    </a>
-                  </div>
-                </footer>
+                  <footer className="-mx-4 md:mx-0 bg-[#203826] text-sm text-[#F4E3C1] py-6 shadow-xl">
+                    <div className="mx-auto px-4 text-center">
+                      Made with <span aria-hidden>💖</span> by&nbsp;
+                      <a
+                        href="https://athena.hackclub.com/team"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline underline-offset-2 decoration-wavy text-[#DBC491] font-semibold hover:text-white transition-colors"
+                      >
+                        Athena Team
+                      </a>
+                    </div>
+                  </footer>
               </div>
             </div>
           </main>
