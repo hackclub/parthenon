@@ -72,7 +72,7 @@ export default function ParentGuide() {
       {/* Invitations */}
       <section>
         <h2 className="text-2xl mb-2 font-bold">
-          Who can receive an invitation?
+          Who can receive an invitation to Parthenon?
         </h2>
         <ul className="list-disc list-inside text-lg space-y-1">
           <li>High school students, ages 18 and under</li>
@@ -93,14 +93,18 @@ export default function ParentGuide() {
 
       {/* Costs */}
       <section>
-        <h2 className="text-2xl mb-2 font-bold">What are the costs?</h2>
+        <h2 className="text-2xl mb-2 font-bold">
+          What are the costs associated?
+        </h2>
         <p className="text-lg leading-relaxed">
-          Participation in the event is entirely free, but students must
-          complete and receive the Athena Award to get an invite. Hack Club will
-          cover expenses at the event for the full three-day experience,
-          including meals and activities. Participants are responsible for their
-          own travel to New York City, but limited travel stipends are
-          available.
+          Participation in the event is entirely free, but there are
+          requirements for entry that your child must meet. Without completing
+          and receiving the Athena Award (our online engineering challenge),
+          your child will not get an invite to Parthenon. We will cover expenses
+          at the event for the entire three-day experience, including meals and
+          activities. Participants are generally responsible for their own
+          travel to New York City, but we are able to offer limited travel
+          grants.
         </p>
       </section>
 
@@ -113,31 +117,34 @@ export default function ParentGuide() {
           Parthenon is more than a hackathon — it&apos;s a celebration of months
           of hard work and a chance to join a community of the most talented
           high school builders in the world. Students can expect a weekend that
-          is structured, supervised, and inspiring.
+          is structured, enriching, and inspiring.
         </p>
 
         <div className="mt-3 space-y-2">
           <h3 className="text-xl font-semibold">The Experience</h3>
           <ul className="list-disc list-inside text-lg space-y-1">
             <li>
-              <span className="font-semibold">Kickoff Ceremony:</span> Opening
-              Ceremony at Duolingo&apos;s NYC office with inspiring speakers and
-              community-building.
+              <span className="font-semibold">Kickoff Ceremony:</span> The
+              weekend begins with an Opening Ceremony where participants will
+              meet one another, hear from inspiring speakers, and get hyped for
+              the hackathon.
             </li>
             <li>
-              <span className="font-semibold">Collaborative Hacking:</span>{" "}
-              Students form small groups to brainstorm, build, and ship
-              ambitious projects with staff and mentors available for support.
+              <span className="font-semibold">Collaborative Hacking:</span> Over
+              the course of the weekend, students will work in small groups to
+              brainstorm, build, and ship ambitious projects. Hack Club staff
+              and mentors will be available throughout to provide technical
+              support and encouragement.
             </li>
             <li>
-              <span className="font-semibold">Workshops & Activities:</span>{" "}
-              Short workshops, team-building, and fun breaks to keep energy
-              high.
+              <span className="font-semibold">Workshops & Activities:</span> In
+              addition to hacking, there will be short workshops, team-building
+              activities, and fun breaks to keep energy high.
             </li>
             <li>
               <span className="font-semibold">Showcase & Celebration:</span> The
-              event ends with a showcase where participants present what they
-              built.
+              event will end with a showcase where participants present what
+              they built.
             </li>
           </ul>
         </div>
@@ -147,14 +154,14 @@ export default function ParentGuide() {
       <section>
         <h2 className="text-2xl mb-2 font-bold">Travel</h2>
         <p className="text-lg leading-relaxed font-semibold text-red-700">
-          ⚠️ Please carefully read the requirements for Travel Stipends before
-          you book your child&apos;s travel. ⚠️
+          ⚠️ Please carefully read the requirements for Travel Grants before you
+          book your child&apos;s travel. ⚠️
         </p>
         <p className="text-lg leading-relaxed">
-          Travel grants will be available to everyone who completes The Athena
-          Award. You can find more info here on how travel grants work for the
-          event. If you would like to book your travel now, please read this
-          before booking travel.
+          Anyone who receives an invitation to join Parthenon may apply for a
+          travel grant. You can find more info here on how travel grants work
+          for the event. If you would like to book your travel now, please read
+          this before booking travel.
         </p>
       </section>
 
@@ -163,7 +170,7 @@ export default function ParentGuide() {
         <h2 className="text-2xl mb-2 font-bold">Safety</h2>
         <p className="text-lg leading-relaxed">
           Hack Club is committed to creating a safe and comfortable environment
-          for students at our events. As with previous Hack Club events, Hack
+          for students at our events. As with previous Hack Club events Hack
           Club staff have undergone background checks (both at the state and
           federal level). Adult team members are on-site with attendees
           throughout the event.
@@ -172,10 +179,6 @@ export default function ParentGuide() {
           We will have support available and a way for you and your child to
           contact us if needed. During the event, a toll-free staff helpline (+1
           855-625-HACK) will be available 24/7 if you have any questions.
-        </p>
-        <p className="text-lg leading-relaxed">
-          Throughout the event, Civic Hall will have 24/7 security on every
-          floor to ensure your child&apos;s safety.
         </p>
       </section>
 
@@ -194,35 +197,86 @@ export default function ParentGuide() {
       <section>
         <h2 className="text-2xl mb-2 font-bold">Visa Information</h2>
         <p className="text-lg leading-relaxed">
-          Check out the{" "}
-          <a href="/guide/travel" className="underline green-200">
-            Travel Guide
-          </a>{" "}
-          for important visa information.
+          Check out the Travel Guide for important visa information.
         </p>
       </section>
 
       {/* Key Personnel */}
       <section>
-        <h2 className="text-2xl mb-2 font-bold">Key Personnel</h2>
-        <ul className="space-y-2 text-lg">
-          <li>
-            <span className="font-semibold">Reem Khalifa</span> —
-            reem@hackclub.com
-          </li>
-          <li>
-            <span className="font-semibold">Christina Asquith</span> —
-            zach@hackclub.com
-          </li>
-          <li>
-            <span className="font-semibold">Rebeka Lawerence Gomez</span> —
-            rebeka@hackclub.com
-          </li>
-          <li>
-            <span className="font-semibold">Zach Latta</span> —
-            zach@hackclub.com
-          </li>
-        </ul>
+        <h2 className="text-2xl mb-6 font-bold">Key Personnel</h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          {/* Person 1 */}
+          <div className="flex flex-col items-center text-center">
+            <img
+              src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/28a04cd679dfd0a56bcbb4dcae4c1d8e95cf6894_image.png"
+              alt="Reem Khalifa"
+              className="w-24 h-24 rounded-full object-cover mb-3"
+            />
+            <div className="font-semibold text-lg text-[#3B5435]">
+              Reem Khalifa
+            </div>
+            <a
+              href="mailto:reem@hackclub.com"
+              className="text-sm text-[#7F534B] mt-1"
+            >
+              reem@hackclub.com
+            </a>
+          </div>
+
+          {/* Person 2 */}
+          <div className="flex flex-col items-center text-center">
+            <img
+              src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/8f043ee75fac8e402b84dd758b246bdc37014bae_image.png"
+              className="w-24 h-24 rounded-full object-cover mb-3"
+            />
+            <div className="font-semibold text-lg text-[#3B5435]">
+              Rebeka Lawrence Gomez
+            </div>
+            <a
+              href="mailto:rebeka@hackclub.com"
+              className="text-sm text-[#7F534B] mt-1"
+            >
+              rebeka@hackclub.com
+            </a>
+          </div>
+
+          {/* Person 3 */}
+          <div className="flex flex-col items-center text-center">
+            <img
+              src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/d2a2d306361dfb9ade241e54cd819143ec4da77e_image.png"
+              alt="Christina Asquith"
+              className="w-24 h-24 rounded-full object-cover mb-3"
+            />
+            <div className="font-semibold text-lg text-[#3B5435]">
+              Christina Asquith
+            </div>
+            <a
+              href="mailto:christina@hackclub.com"
+              className="text-sm text-[#7F534B] mt-1"
+            >
+              christina@hackclub.com
+            </a>
+          </div>
+
+          {/* Person 4 */}
+          <div className="flex flex-col items-center text-center">
+            <img
+              src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/8c2cae7602d623868de20f5fc7935b68fe2b5f06_image.png"
+              alt="Zach Latta"
+              className="w-24 h-24 rounded-full object-cover mb-3"
+            />
+            <div className="font-semibold text-lg text-[#3B5435]">
+              Zach Latta
+            </div>
+            <a
+              href="mailto:zach@hackclub.com"
+              className="text-sm text-[#7F534B] mt-1"
+            >
+              zach@hackclub.com
+            </a>
+          </div>
+        </div>
       </section>
 
       {/* Contact */}

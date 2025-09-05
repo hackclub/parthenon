@@ -1,6 +1,6 @@
 export default function AthenaAward() {
   return (
-    <div className="text-[#7F534B] font-sans space-y-3 px-4 sm:px-8 md:px-16 lg:px-24">
+    <div className="text-[#7F534B] font-sans space-y-3 px-4 ">
       <h1 className="text-3xl sm:text-4xl md:text-5xl uppercase font-bold mb-4 text-[#3B5435]">
         Invitation Process FAQ
       </h1>
