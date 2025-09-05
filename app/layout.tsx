@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { EB_Garamond, Ubuntu } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
