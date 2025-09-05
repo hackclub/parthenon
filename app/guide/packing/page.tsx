@@ -50,7 +50,7 @@ export default function PackingList() {
         </ul>
       </section>
 
-      <section>
+      <section className="mb-10">
         <h2 className="text-2xl mb-2 font-bold">Backpack</h2>
         <h3 className="text-xl mb-1 font-semibold">Tech:</h3>
         <ul className="list-disc list-inside">

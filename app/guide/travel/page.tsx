@@ -23,7 +23,7 @@ export default function TravelGuide() {
           <span className="font-semibold">October 20th, 2025</span> in order to
           receive an invitation. Invites will be sent on a rolling basis until{" "}
           <span className="font-semibold">October 31st, 2025</span>. Confirm
-          your spot within five days of your invitation or by October 31st
+          your spot within two weeks of your invitation or by October 31st
           (including signed waiver).
         </p>
         <p className="text-lg leading-relaxed">
@@ -120,6 +120,17 @@ export default function TravelGuide() {
           Extra funds can be purchased with artifacts: 10 artifacts = $30
           additional flight grant.
         </p>
+        <div className="block text-center bg-green-800/20 p-3 mt-3 sm:text-base">
+          <h2 className="font-bold text-lg">
+            <a
+              href="https://forms.hackclub.com/parthenon-travel-grant"
+              className="underline text-green-900 hover:text-green-700"
+            >
+              Apply for a travel grant here (only open once you've received an
+              invite to Parthenon!)
+            </a>
+          </h2>
+        </div>
       </section>
 
       {/* Travelling Internationally */}
@@ -176,7 +187,7 @@ export default function TravelGuide() {
       </section>
 
       {/* If interviewer is concerned */}
-      <section>
+      <section className="mb-10">
         <h2 className="text-2xl mb-2 font-bold">
           If your visa interviewer is concerned
         </h2>
