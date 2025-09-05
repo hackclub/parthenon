@@ -99,7 +99,7 @@ export default function Home() {
                   className="max-w-none min-h-screen opacity-60"
                 />
               </div>
-
+              {/* Flowing content */}
               {/* Flowing content */}
               <div className="absolute top-0 md:pt-10 px-4 md:px-0">
                 {/* Cards container */}
@@ -268,19 +268,19 @@ export default function Home() {
                     </div>
                   </section>
                 </div>
-                  <footer className="-mx-4 md:mx-0 bg-[#203826] text-sm text-[#F4E3C1] py-6 shadow-xl">
-                    <div className="mx-auto px-4 text-center">
-                      Made with <span aria-hidden>💖</span> by&nbsp;
-                      <a
-                        href="https://athena.hackclub.com/team"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="underline underline-offset-2 decoration-wavy text-[#DBC491] font-semibold hover:text-white transition-colors"
-                      >
-                        Athena Team
-                      </a>
-                    </div>
-                  </footer>
+                <footer className="-mx-4 md:mx-0 bg-[#203826] text-sm text-[#F4E3C1] py-6 shadow-xl">
+                  <div className="mx-auto px-4 text-center">
+                    Made with <span aria-hidden>💖</span> by&nbsp;
+                    <a
+                      href="https://athena.hackclub.com/team"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline underline-offset-2 decoration-wavy text-[#DBC491] font-semibold hover:text-white transition-colors"
+                    >
+                      Athena Team
+                    </a>
+                  </div>
+                </footer>
               </div>
             </div>
           </main>
