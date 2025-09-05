@@ -126,8 +126,8 @@ export default function TravelGuide() {
               href="https://forms.hackclub.com/parthenon-travel-grant"
               className="underline text-green-900 hover:text-green-700"
             >
-              Apply for a travel grant here (only open once you've received an
-              invite to Parthenon!)
+              Apply for a travel grant here (only open once you&apos;ve received
+              an invite to Parthenon!)
             </a>
           </h2>
         </div>
