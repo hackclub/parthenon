@@ -1,5 +1,7 @@
 import NextAuth from "next-auth";
 import SlackProvider from "next-auth/providers/slack";
+import { Session } from "next-auth";
+import { JWT } from "next-auth/jwt";
 
 export const authOptions = {
   providers: [
@@ -21,16 +23,11 @@ export const authOptions = {
       console.log("Slack profile:", params.profile);
       return true;
     },
-    async session({
-      session,
-      token,
-    }: {
-      session: any;
-      token: any;
-      user?: any;
-    }) {
+    async session({ session, token }: { session: Session; token: JWT }) {
       // Add Slack ID to session
-      session.user.id = token.sub;
+      if (session.user) {
+        (session.user as { id?: string }).id = token.sub;
+      }
       return session;
     },
   },
