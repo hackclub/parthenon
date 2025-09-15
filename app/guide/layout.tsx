@@ -53,6 +53,10 @@ export default function Guide({ children }: { children: React.ReactNode }) {
           <SidebarLink href={"/guide/parents"} label={"ℹ️ For parents"} />
           <SidebarLink href={"/guide/travel"} label={"✈️ Travel Guide"} />
           <SidebarLink href={"/guide/packing"} label={"🧳 Packing List"} />
+          <SidebarLink
+            href={"/guide/participants"}
+            label={"🚧 Under Construction"}
+          />
         </div>
         <div className="mt-auto pt-4">
           <Link href="/">
